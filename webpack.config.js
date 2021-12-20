@@ -6,6 +6,9 @@ module.exports = {
     index: './src/index.js',
   },
   mode: 'development',
+  devServer: {
+    static: './dist',
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
